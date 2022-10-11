@@ -2,7 +2,7 @@ pipeline{
     agent any
     environment{
         IMAGE_NAME = "vinay0094k/my_nginx_img"
-        DOCKER_CREDENTIALS_ID = "dockercredentials"
+        DOCKER_CREDENTIALS_ID = "docker"
     }
     stages{
         stage('get scm'){
